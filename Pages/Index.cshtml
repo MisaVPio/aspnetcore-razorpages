@@ -1,14 +1,36 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Página Principal";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Bem vindo</h1>   
 </div>
 
-@section Scripts{
+<div class="row">
+    @foreach (var produto in Model.Produtos)
+    {
+        <div class="col-sm-4">
+            <div class="card text-center bg-light mb-4">
+                <img class="card-img-top" src="/img/produto/@String.Concat(produto.IdProduto.ToString("D6"),
+                ".jpg")" alt="Imagem de @produto.Nome">
+                <div class="card-header">
+                    R$ @produto.Preco.ToString()
+                </div>
+                <div class="card-body" style="height:124px;">
+                    <h5 class="card-title">@produto.Nome</h5>
+                    <p class="card-text">@produto.Descricao</p>
+                </div>
+                <div class="card-footer">
+                    <div><a href="#" class="btn btn-primary">Adicionar ao Carrinho</a></div>
+                    <small class="text-muted">Estoque: @produto.Estoque</small>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts{   
     <script type="text/javascript" src="~/js/scripts.js"></script>
 }

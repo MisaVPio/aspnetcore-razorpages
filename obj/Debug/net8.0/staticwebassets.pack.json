@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\img\\produto\\00001.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\00001.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\img\\produto\\00002.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\00002.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\img\\produto\\00003.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\00003.jpg"
+    },
+    {
       "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -195,6 +207,86 @@
     {
       "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\currency.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime\\currency.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\date.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime\\date.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\message.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime\\message.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\number.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime\\number.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\plural.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime\\plural.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\relative-time.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime\\relative-time.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\unit.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize-runtime\\unit.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\currency.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize\\currency.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\date.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize\\date.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\message.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize\\message.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\number.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize\\number.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\plural.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize\\plural.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\relative-time.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize\\relative-time.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\unit.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\globalize\\unit.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\globalize\\dist\\node-main.js",
+      "PackagePath": "staticwebassets\\lib\\globalize\\dist\\node-main.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\jquery-validation-globalize\\gulpfile.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\gulpfile.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\jquery.validate.globalize.js"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js"
     },
     {
       "Id": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",

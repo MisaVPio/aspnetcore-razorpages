@@ -2,14 +2,15 @@
 @model AspNetCoreWebApp.Pages.ProdutoCRUD.DeleteModel
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Exclusão de Produto";
 }
 
-<h1>Delete</h1>
+<h1>@ViewData["Title"]</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Deseja realmente excluir este produto?</h3>
+
 <div>
-    <h4>ProdutoModel</h4>
+       
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
@@ -40,7 +41,7 @@
     
     <form method="post">
         <input type="hidden" asp-for="ProdutoModel.IdProduto" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-page="./Index">Back to List</a>
+        <input type="submit" value="Apagar" class="btn btn-danger" /> |
+        <a asp-page="./Index">Voltar à Listagem</a>
     </form>
 </div>
