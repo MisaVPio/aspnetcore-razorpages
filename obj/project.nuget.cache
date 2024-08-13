@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zcc4b5FUN4M=",
+  "dgSpecHash": "H71gSKdb2hU=",
   "success": true,
-  "projectFilePath": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\AspNetCoreWebApp.csproj",
+  "projectFilePath": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\AspNetCoreWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrador\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

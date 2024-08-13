@@ -6658,11 +6658,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\AspNetCoreWebApp.csproj",
+      "projectUniqueName": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\AspNetCoreWebApp.csproj",
       "projectName": "AspNetCoreWebApp",
-      "projectPath": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\AspNetCoreWebApp.csproj",
+      "projectPath": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\AspNetCoreWebApp.csproj",
       "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV\\PROJECTS\\TESTE\\AspNetCoreWebApp\\obj\\",
+      "outputPath": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
