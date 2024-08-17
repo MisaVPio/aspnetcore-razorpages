@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\clientecrud\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\clientecrud\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,14 +39,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Admin.cshtml",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\Admin.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Admin.cshtml",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\Admin.cshtml",
-              "RelativeToolTip": "Pages\\Admin.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Title": "Listar.cshtml",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Listar.cshtml",
+              "RelativeDocumentMoniker": "Pages\\ClienteCRUD\\Listar.cshtml",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Listar.cshtml",
+              "RelativeToolTip": "Pages\\ClienteCRUD\\Listar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T20:28:17.781Z",
+              "WhenOpened": "2024-08-17T21:12:48.117Z",
               "EditorCaption": ""
             }
           ]

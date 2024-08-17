@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using AspNetCoreWebApp.Data;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
-var builder = WebApplication.CreateBuilder(args);
+
 /*
  
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -16,6 +16,8 @@ var builder = WebApplication.CreateBuilder(args);
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  */
 // Add services to the container.
+
+var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("ApplicationDbContext") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContext' not found.")));
