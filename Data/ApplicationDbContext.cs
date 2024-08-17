@@ -15,5 +15,6 @@ namespace AspNetCoreWebApp.Data
         }
 
         public DbSet<AspNetCoreWebApp.Models.ProdutoModel> ProdutoModel { get; set; } = default!;
+        public DbSet<AspNetCoreWebApp.Models.ClienteModel> Clientes { get; set; } = default!;
     }
 }
