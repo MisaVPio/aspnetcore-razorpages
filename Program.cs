@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Localization;
 
         CURSO RICARDO MAROQUINO - ASP.NET CORE 3.1 COM RAZOR PAGES
 
-        ATUALMENTE NA AULA 6 - 0:00m
+        ATUALMENTE NA AULA 8 - 0:00m
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  */
