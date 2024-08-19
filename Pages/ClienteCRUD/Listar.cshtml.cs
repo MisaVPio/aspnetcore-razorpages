@@ -27,14 +27,14 @@ namespace AspNetCoreWebApp.Pages.ClienteCRUD
             {
                 return NotFound();
             }
-            var cliente = await _context.Clientes.FindAsync();
+            var cliente = await _context.Clientes.FindAsync(id);
             if (cliente != null)
             {
                 _context.Clientes.Remove(cliente);
                 await _context.SaveChangesAsync();
             }
 
-            return Page();
+            return RedirectToPage("./Listar");
         }
     }
 }

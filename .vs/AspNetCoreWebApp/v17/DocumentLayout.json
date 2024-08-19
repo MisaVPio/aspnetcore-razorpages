@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\clientecrud\\listar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\clientecrud\\listar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\clientecrud\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\clientecrud\\listar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\shared\\display templates\\_customcpf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\shared\\display templates\\_customcpf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\clientecrud\\incluir.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\clientecrud\\incluir.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\clientecrud\\incluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\clientecrud\\incluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Migrations\\20240819135533_ModeloCliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240819135533_ModeloCliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\migrations\\20240810005227_initialdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:migrations\\20240810005227_initialdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,27 +67,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Listar.cshtml.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Listar.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\ClienteCRUD\\Listar.cshtml.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Listar.cshtml.cs",
-              "RelativeToolTip": "Pages\\ClienteCRUD\\Listar.cshtml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T21:37:08.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Listar.cshtml",
               "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Listar.cshtml",
               "RelativeDocumentMoniker": "Pages\\ClienteCRUD\\Listar.cshtml",
               "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Listar.cshtml",
               "RelativeToolTip": "Pages\\ClienteCRUD\\Listar.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAkwCcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-17T21:12:48.117Z",
+              "WhenOpened": "2024-08-19T14:06:02.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_CustomCPF.cshtml",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\Shared\\Display Templates\\_CustomCPF.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\Display Templates\\_CustomCPF.cshtml",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\Shared\\Display Templates\\_CustomCPF.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\Display Templates\\_CustomCPF.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T14:05:25.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Incluir.cshtml.cs",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Incluir.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\ClienteCRUD\\Incluir.cshtml.cs",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Incluir.cshtml.cs",
+              "RelativeToolTip": "Pages\\ClienteCRUD\\Incluir.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T14:04:46.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Incluir.cshtml",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Incluir.cshtml",
+              "RelativeDocumentMoniker": "Pages\\ClienteCRUD\\Incluir.cshtml",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Incluir.cshtml",
+              "RelativeToolTip": "Pages\\ClienteCRUD\\Incluir.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T13:59:32.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteModel.cs",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Models\\ClienteModel.cs",
+              "RelativeDocumentMoniker": "Models\\ClienteModel.cs",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Models\\ClienteModel.cs",
+              "RelativeToolTip": "Models\\ClienteModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:56:16.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240819135533_ModeloCliente.cs",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Migrations\\20240819135533_ModeloCliente.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240819135533_ModeloCliente.cs",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Migrations\\20240819135533_ModeloCliente.cs",
+              "RelativeToolTip": "Migrations\\20240819135533_ModeloCliente.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:55:34.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:54:45.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240810005227_InitialDatabase.cs",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Migrations\\20240810005227_InitialDatabase.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240810005227_InitialDatabase.cs",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Migrations\\20240810005227_InitialDatabase.cs",
+              "RelativeToolTip": "Migrations\\20240810005227_InitialDatabase.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:40:53.898Z",
               "EditorCaption": ""
             }
           ]

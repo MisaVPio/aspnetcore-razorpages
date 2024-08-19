@@ -6,7 +6,7 @@
 
 <header class="container p-3">
     <div class="row align-items-center">
-        <div class="col-sm-6"><h1>@ViewData["Titulo"]</h1></div>
+        <div class="col-sm-6"><h1>@ViewData["Title"]</h1></div>
         <div class="col-sm-6 text-right"><a asp-page="Incluir" class="btn btn-info">Novo Cliente</a></div>
     </div>
 </header>
@@ -17,7 +17,7 @@
             <thead>
                 <tr>
                     <th>@Html.DisplayNameFor(m => m.Clientes[0].Nome)</th>
-                    <th>@Html.DisplayNameFor(m => m.Clientes[0].CPF)</th>
+                 @*    <th>@Html.DisplayNameFor(m => m.Clientes[0].CPF)</th> *@
                     <th>@Html.DisplayNameFor(m => m.Clientes[0].DataNascimento)</th>
                     <th>@Html.DisplayNameFor(m => m.Clientes[0].Email)</th>
                     <th class="text-center">Ações</th>
@@ -28,13 +28,13 @@
                 {
                     <tr>
                         <td>@Html.DisplayFor(modelItem => item.Nome)</td>
-                        <td>@Html.DisplayFor(modelItem => item.CPF)</td>
+                      @*   <td>@Html.DisplayFor(modelItem => item.CPF)</td> *@
                         <td>@Html.DisplayFor(modelItem => item.DataNascimento)</td>
                         <td>@Html.DisplayFor(modelItem => item.Email)</td>
                         <td class="text-center">
                             <a class="btn btn-primary btn-sm" asp-page="./Alterar"
                             asp-route-id="@item.IdCliente" method="post">Alterar</a>
-                            <form class="d-inline-block" asp-page-handler="delete"
+                            <form class="d-inline-block" asp-page-handler="Delete"
                            asp-route-id="@item.IdCliente" method="post">
                            <button class="btn btn-danger btn-sm" onclick="confirmarExclusao(this);" type="button">
                            Excluir</button>
@@ -50,3 +50,9 @@
         <h2>Não há clientes cadastrados.</h2>
     }
 </main>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_CustomConfirm");
+    }
+}

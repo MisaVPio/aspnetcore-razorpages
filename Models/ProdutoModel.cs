@@ -9,11 +9,11 @@ namespace AspNetCoreWebApp.Models
         public int IdProduto { get; set; }
         [Required(ErrorMessage ="O campo {0} é de preenchimento obrigatório")]
         [MaxLength(100)]
-        public String Nome { get; set; }
+        public String Nome { get; set; } = "Unknown";
         [Required(ErrorMessage = "O campo {0} é de preenchimento obrigatório")]
         [MaxLength (1000)]
         [Display(Name = "Descrição")]
-        public string Descricao { get; set; }
+        public string Descricao { get; set; } = "Unknown";
         [Required(ErrorMessage = "O campo {0} é de preenchimento obrigatório")]
         [Column(TypeName ="decimal(18,2)")]
         [Display(Name = "Preço")]
