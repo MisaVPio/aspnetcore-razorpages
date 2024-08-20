@@ -82,8 +82,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXERpc3BsYXkgVGVtcGxhdGVzXF9DdXN0b21DUEYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/_BackTemplate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9CYWNrVGVtcGxhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/_ConsultaCEP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Db25zdWx0YUNFUC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/_CustomConfirm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9DdXN0b21Db25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/_FrontTemplate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Gcm9udFRlbXBsYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/_Template.cshtml]

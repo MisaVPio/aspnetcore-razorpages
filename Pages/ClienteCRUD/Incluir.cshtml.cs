@@ -11,7 +11,7 @@ namespace AspNetCoreWebApp.Pages.ClienteCRUD
         private ApplicationDbContext _context;
 
         [BindProperty]
-        public ClienteModel Clientes { get; set; }
+        public ClienteModel Cliente { get; set; }
       
         public IncluirModel(ApplicationDbContext context)
         {
@@ -25,8 +25,10 @@ namespace AspNetCoreWebApp.Pages.ClienteCRUD
         public async Task<IActionResult> OnPostAsync()
         {
             var cliente = new ClienteModel();
-            if (await TryUpdateModelAsync<ClienteModel>(cliente, "Clientes",
-                obj => obj.Nome, obj => obj.DataNascimento, o => o.Email))
+            cliente.Endereco = new EnderecoModel();
+            cliente.Situacao = ClienteModel.SituacaoCliente.Cadastrado;
+
+            if (await TryUpdateModelAsync(cliente, Cliente.GetType(),nameof(ClienteModel)))
             {
                 _context.Clientes.Add(cliente);
                 await _context.SaveChangesAsync();

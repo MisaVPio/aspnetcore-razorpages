@@ -3,60 +3,28 @@
   "WorkspaceRootPath": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Migrations\\20240820114925_BancoAtualizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240820114925_BancoAtualizado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\clientecrud\\incluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\clientecrud\\incluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\produtocrud\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\produtocrud\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\clientecrud\\alterar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\clientecrud\\alterar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\produtocrud\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\produtocrud\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\clientecrud\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\clientecrud\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\produtocrud\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\produtocrud\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\shared\\_template.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\shared\\_template.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\produtocrud\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\produtocrud\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\shared\\_backtemplate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\shared\\_backtemplate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\produtocrud\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\produtocrud\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\models\\visitadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:models\\visitadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\models\\enderecomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:models\\enderecomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\models\\pedidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:models\\pedidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\models\\itempedidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:models\\itempedidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\models\\favoritomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:models\\favoritomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,8 +34,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T13:30:39.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_BackTemplate.cshtml",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\Shared\\_BackTemplate.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_BackTemplate.cshtml",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\Shared\\_BackTemplate.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_BackTemplate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T13:28:47.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Template.cshtml",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\Shared\\_Template.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Template.cshtml",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\Shared\\_Template.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Template.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T13:16:01.506Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:2104676336:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
@@ -89,185 +96,46 @@
               "Name": "ST:724000098:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240820114925_BancoAtualizado.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Migrations\\20240820114925_BancoAtualizado.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240820114925_BancoAtualizado.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Migrations\\20240820114925_BancoAtualizado.cs",
-              "RelativeToolTip": "Migrations\\20240820114925_BancoAtualizado.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAowA8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:49:26.379Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:174586676:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ProdutoCRUD\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\ProdutoCRUD\\Index.cshtml.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ProdutoCRUD\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\ProdutoCRUD\\Index.cshtml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAvwBkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:48:55.079Z",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Pages\\ClienteCRUD\\_ViewStart.cshtml",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\_ViewStart.cshtml",
+              "RelativeToolTip": "Pages\\ClienteCRUD\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T13:28:25.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ProdutoCRUD\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\ProdutoCRUD\\Edit.cshtml.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ProdutoCRUD\\Edit.cshtml.cs",
-              "RelativeToolTip": "Pages\\ProdutoCRUD\\Edit.cshtml.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAnwEkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:48:46.309Z",
+              "Title": "Alterar.cshtml",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Alterar.cshtml",
+              "RelativeDocumentMoniker": "Pages\\ClienteCRUD\\Alterar.cshtml",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Alterar.cshtml",
+              "RelativeToolTip": "Pages\\ClienteCRUD\\Alterar.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowF4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T13:17:15.254Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ProdutoCRUD\\Details.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\ProdutoCRUD\\Details.cshtml.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ProdutoCRUD\\Details.cshtml.cs",
-              "RelativeToolTip": "Pages\\ProdutoCRUD\\Details.cshtml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAawB4AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:48:33.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ProdutoCRUD\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\ProdutoCRUD\\Delete.cshtml.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ProdutoCRUD\\Delete.cshtml.cs",
-              "RelativeToolTip": "Pages\\ProdutoCRUD\\Delete.cshtml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAIA3wDcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:48:01.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAEwBUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:47:49.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ProdutoCRUD\\Create.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\ProdutoCRUD\\Create.cshtml.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ProdutoCRUD\\Create.cshtml.cs",
-              "RelativeToolTip": "Pages\\ProdutoCRUD\\Create.cshtml.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAvwCUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:47:18.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:36:23.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VisitadoModel.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Models\\VisitadoModel.cs",
-              "RelativeDocumentMoniker": "Models\\VisitadoModel.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Models\\VisitadoModel.cs",
-              "RelativeToolTip": "Models\\VisitadoModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:34:08.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FavoritoModel.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Models\\FavoritoModel.cs",
-              "RelativeDocumentMoniker": "Models\\FavoritoModel.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Models\\FavoritoModel.cs",
-              "RelativeToolTip": "Models\\FavoritoModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:31:19.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ItemPedidoModel.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Models\\ItemPedidoModel.cs",
-              "RelativeDocumentMoniker": "Models\\ItemPedidoModel.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Models\\ItemPedidoModel.cs",
-              "RelativeToolTip": "Models\\ItemPedidoModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:24:44.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PedidoModel.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Models\\PedidoModel.cs",
-              "RelativeDocumentMoniker": "Models\\PedidoModel.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Models\\PedidoModel.cs",
-              "RelativeToolTip": "Models\\PedidoModel.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwCoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:10:29.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ClienteModel.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Models\\ClienteModel.cs",
-              "RelativeDocumentMoniker": "Models\\ClienteModel.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Models\\ClienteModel.cs",
-              "RelativeToolTip": "Models\\ClienteModel.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwDYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T11:03:14.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EnderecoModel.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Models\\EnderecoModel.cs",
-              "RelativeDocumentMoniker": "Models\\EnderecoModel.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Models\\EnderecoModel.cs",
-              "RelativeToolTip": "Models\\EnderecoModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T10:46:46.091Z",
+              "DocumentIndex": 0,
+              "Title": "Incluir.cshtml",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Incluir.cshtml",
+              "RelativeDocumentMoniker": "Pages\\ClienteCRUD\\Incluir.cshtml",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Incluir.cshtml",
+              "RelativeToolTip": "Pages\\ClienteCRUD\\Incluir.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T12:20:57.717Z",
               "EditorCaption": ""
             }
           ]

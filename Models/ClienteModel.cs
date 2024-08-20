@@ -38,16 +38,16 @@ namespace AspNetCoreWebApp.Models
         [MinLength(11, ErrorMessage = "O campo \"{0}\" deve conter no máximo {1} caracteres.")]
         [RegularExpression(@"[0-9]{11}$", ErrorMessage = "O campo \"{0}\" deve ser preenchido com 11 números.")]
         [UIHint("_TelefoneTemplate")]
-        public string Telefone {  get; set; }   
+        public string Telefone { get; set; }
 
         [Required(ErrorMessage = "O campo \"{0}\" é de preenchimento obrigatório.")]
         [DisplayName("E-mail")]
         [EmailAddress(ErrorMessage = "O campo \"{0}\" deve conter um endereço de e-mail válido")]
-        [MaxLength(50,ErrorMessage = "O campo \"{0}\" deve conter no máximo {1} caracteres.")]
+        [MaxLength(50, ErrorMessage = "O campo \"{0}\" deve conter no máximo {1} caracteres.")]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "O campo \"{0}\" é de preenchimento obrigatório.")]
-        [Display(Name ="Situação")]
+        [Display(Name = "Situação")]
         public SituacaoCliente Situacao { get; set; }
 
         public EnderecoModel Endereco { get; set; }
