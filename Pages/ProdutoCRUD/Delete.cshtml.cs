@@ -29,7 +29,7 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
                 return NotFound();
             }
 
-            var produtomodel = await _context.ProdutoModel.FirstOrDefaultAsync(m => m.IdProduto == id);
+            var produtomodel = await _context.Produtos.FirstOrDefaultAsync(m => m.IdProduto == id);
 
             if (produtomodel == null)
             {
@@ -49,11 +49,11 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
                 return NotFound();
             }
 
-            var produtomodel = await _context.ProdutoModel.FindAsync(id);
+            var produtomodel = await _context.Produtos.FindAsync(id);
             if (produtomodel != null)
             {
                 ProdutoModel = produtomodel;
-                _context.ProdutoModel.Remove(ProdutoModel);
+                _context.Produtos.Remove(ProdutoModel);
                 await _context.SaveChangesAsync();
             }
 

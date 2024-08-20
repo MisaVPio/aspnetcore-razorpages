@@ -35,7 +35,7 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
                 return Page();
             }
 
-            _context.ProdutoModel.Add(ProdutoModel);
+            _context.Produtos.Add(ProdutoModel);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

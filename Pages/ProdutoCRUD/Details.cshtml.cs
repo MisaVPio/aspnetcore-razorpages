@@ -28,7 +28,7 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
                 return NotFound();
             }
 
-            var produtomodel = await _context.ProdutoModel.FirstOrDefaultAsync(m => m.IdProduto == id);
+            var produtomodel = await _context.Produtos.FirstOrDefaultAsync(m => m.IdProduto == id);
             if (produtomodel == null)
             {
                 return NotFound();

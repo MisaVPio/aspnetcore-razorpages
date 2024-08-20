@@ -23,7 +23,7 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
 
         public async Task OnGetAsync()
         {
-            ProdutoModel = await _context.ProdutoModel.ToListAsync();
+            ProdutoModel = await _context.Produtos.ToListAsync();
         }
     }
 }

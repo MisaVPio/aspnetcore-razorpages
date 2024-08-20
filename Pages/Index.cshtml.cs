@@ -19,7 +19,7 @@ namespace AspNetCoreWebApp.Pages
 
         public async void OnGet()
         {
-            Produtos = await _context.ProdutoModel.ToListAsync<Models.ProdutoModel>();
+            Produtos = await _context.Produtos.ToListAsync<Models.ProdutoModel>();
         }
     }
 }
