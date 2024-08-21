@@ -25,30 +25,42 @@
             <th>
                 @Html.DisplayNameFor(model => model.ProdutoModel[0].Estoque)
             </th>
-            <th></th>
+            <th class="text-center">Ações</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.ProdutoModel) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Preco)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Estoque)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.IdProduto">Editar</a> |
-                <a asp-page="./Details" asp-route-id="@item.IdProduto">Detalhes</a> |
-                <a asp-page="./Delete" asp-route-id="@item.IdProduto">Apagar</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model.ProdutoModel)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Preco)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Estoque)
+                </td>
+                <td class="text-center">
+                    <a class="btn btn-primary btn-sm" asp-page="./Edit" asp-route-id="@item.IdProduto">Editar</a> |
+                    <form class="d-inline-block" asp-page-handler="delete" asp-route-id="@item.IdProduto" method="post">
+                        <button class="btn btn-danger btn-sm"
+                                onclick="confirmarExclusao(this);" type="button">
+                            Excluir
+                        </button>
+                    </form>
+                    <a asp-page="./Delete" asp-route-id="@item.IdProduto">Apagar</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

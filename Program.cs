@@ -11,7 +11,13 @@ using Microsoft.AspNetCore.Localization;
 
         CURSO RICARDO MAROQUINO - ASP.NET CORE 3.1 COM RAZOR PAGES
 
-        ATUALMENTE NA AULA 9 - 24:57m
+        ATUALMENTE NA AULA 11 - 07:03m
+
+        * INSTALAR PACKAGE SIXLABORS.IMAGESHARP
+        * CRIAR MÉDOTO PROCESSARARQUIVODEIMAGEM NA CLASSE APPUTILS
+        * CORRIGIR SCRIPT DE CEP
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  */
