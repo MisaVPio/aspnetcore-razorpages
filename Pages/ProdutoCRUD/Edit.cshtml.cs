@@ -19,7 +19,7 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
         private readonly IWebHostEnvironment _webHostEnvironment;
 
         [BindProperty]
-        public ProdutoModel ProdutoModel { get; set; }
+        public ProdutoModel Produto { get; set; }
 
         [BindProperty]
         [Display(Name = "Imagem do Produto")]
@@ -40,17 +40,16 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
                 return NotFound();
             }
 
-            var produtomodel =  await _context.Produtos.FirstOrDefaultAsync(m => m.IdProduto == id);
-            if (produtomodel == null)
+            Produto =  await _context.Produtos.FirstOrDefaultAsync(m => m.IdProduto == id);
+            if (Produto == null)
             {
                 return NotFound();
             }
-            CaminhoImagem = $"~/img/produto/{produtomodel.IdProduto:D5}";
+            CaminhoImagem = $"~/img/produto/{Produto.IdProduto:D5}"+".jpg";
             return Page();
         }
 
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see https://aka.ms/RazorPagesCRUD.
+        
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
@@ -58,20 +57,20 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
                 return Page();
             }
 
-            _context.Attach(ProdutoModel).State = EntityState.Modified;
+            _context.Attach(Produto).State = EntityState.Modified;
 
             try
             {
                 await _context.SaveChangesAsync();
                 if (ImagemProduto != null)
                 {
-                    await AppUtils.ProcessarArquivoDeImagem(ProdutoModel.IdProduto, 
+                    await AppUtils.ProcessarArquivoDeImagem(Produto.IdProduto, 
                         ImagemProduto, _webHostEnvironment);
                 }
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ProdutoModelExists(ProdutoModel.IdProduto))
+                if (!ProdutoModelExists(Produto.IdProduto))
                 {
                     return NotFound();
                 }

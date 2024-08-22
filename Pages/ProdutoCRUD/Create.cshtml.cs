@@ -42,7 +42,7 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
         public ProdutoModel ProdutoModel { get; set; } = default!;
         public async Task<IActionResult> OnPostAsync()
         {
-            if (/*ImagemProduto == null || */!ModelState.IsValid)
+            if (ImagemProduto == null)
             {
                 return Page();
             }

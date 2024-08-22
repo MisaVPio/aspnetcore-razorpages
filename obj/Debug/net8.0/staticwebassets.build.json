@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cx4we8VQsIT4+jI+XTh4j6uSbEjuI7MfyH8/hhE9RYQ=",
+  "Hash": "r+Fo6HhdB/eA8TFz7YUBAb7QYTq95sTJlx7MlmvMyZI=",
   "Source": "AspNetCoreWebApp",
   "BasePath": "_content/AspNetCoreWebApp",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\produto\\00005.jpg"
+    },
+    {
+      "Identity": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\00006.jpg",
+      "SourceId": "AspNetCoreWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreWebApp",
+      "RelativePath": "img/produto/00006.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\produto\\00006.jpg"
     },
     {
       "Identity": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\sem_imagem.JPG",

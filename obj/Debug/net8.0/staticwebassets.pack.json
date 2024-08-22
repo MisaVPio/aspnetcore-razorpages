@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\img\\produto\\00005.jpg"
     },
     {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\00006.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\00006.jpg"
+    },
+    {
       "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\sem_imagem.JPG",
       "PackagePath": "staticwebassets\\img\\produto\\sem_imagem.JPG"
     },

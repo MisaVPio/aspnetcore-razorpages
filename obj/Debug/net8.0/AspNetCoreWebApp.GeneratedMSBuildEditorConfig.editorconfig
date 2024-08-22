@@ -82,14 +82,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b0NSVURcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ProdutoCRUD/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b0NSVURcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ProdutoCRUD/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b0NSVURcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ProdutoCRUD/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b0NSVURcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

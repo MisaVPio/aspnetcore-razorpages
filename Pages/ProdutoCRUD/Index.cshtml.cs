@@ -12,18 +12,34 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
 {
     public class IndexModel : PageModel
     {
-        private readonly AspNetCoreWebApp.Data.ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public IndexModel(AspNetCoreWebApp.Data.ApplicationDbContext context)
+        public IndexModel(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        public IList<ProdutoModel> ProdutoModel { get;set; } = default!;
+        public IList<ProdutoModel> Produto { get;set; } = default!;
 
         public async Task OnGetAsync()
         {
-            ProdutoModel = await _context.Produtos.ToListAsync();
+            Produto = await _context.Produtos.ToListAsync();
+        }
+
+        public async Task<IActionResult> OnPostDeleteAsync(int? id)
+        {
+            if (id == null)
+            {
+                return Page();
+            }
+            var verProduto = await _context.Produtos.FindAsync(id);
+            if (verProduto != null)
+            {
+                _context.Produtos.Remove(verProduto);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToPage("./Index");
         }
     }
 }
