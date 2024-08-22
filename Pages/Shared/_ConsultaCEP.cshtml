@@ -7,7 +7,7 @@
             $("#Cliente_Endereco_Bairro").val('');
             $("#Cliente_Endereco_Cidade").val('');
             $("#Cliente_Endereco_Estado").val('');
-            $("#endereco").text('Digite um CEP válido e aguarde.');
+            $("#endereco").text("Digite um CEP válido e aguarde.");
 
             $("#cep_none").removeClass("d-done");
             $("#cep_loading").removeClass("d-done");
@@ -15,7 +15,7 @@
         }
 
         function consultar_cep() {
-            var cep = $("#Ciente_Endereco_CEP").val().replace(/\D/g, '');
+            var cep = $("#Cliente_Endereco_CEP").val().replace(/\D/g, '');
             if (cep != "") {
                 var validacep = /^[0-9]{8}$/;
                 if (validacep.test(cep)){

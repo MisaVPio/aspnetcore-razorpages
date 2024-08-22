@@ -24,6 +24,11 @@ namespace AspNetCoreWebApp.Pages.ClienteCRUD
 
         public async Task<IActionResult> OnPostAsync()
         {
+            if(!ModelState.IsValid)
+            {
+                ViewData["Message"] = "Modelo inválido!!!!";
+                return Page();
+            }
             var cliente = new ClienteModel();
             cliente.Endereco = new EnderecoModel();
             cliente.Situacao = ClienteModel.SituacaoCliente.Cadastrado;
