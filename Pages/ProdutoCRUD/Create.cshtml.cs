@@ -17,13 +17,12 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _webHostEnvironment;
 
-        [BindProperty]
-        public ProdutoModel ProdutoModel { get; set; }
+
 
         [BindProperty]
         [Display(Name = "Imagem do Produto")]
         [Required(ErrorMessage = "O campo \"{0}\" é de preenchimento obrigatório.")]
-        public IFormFile ImagemProduto { get; set; }
+        public IFormFile? ImagemProduto { get; set; }
 
         public string CaminhoImagem { get; set; }
 
@@ -39,19 +38,22 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
             return Page();
         }
 
-        public async Task<IActionResult> OnPostCriarAsync()
+        [BindProperty]
+        public ProdutoModel ProdutoModel { get; set; } = default!;
+        public async Task<IActionResult> OnPostAsync()
         {
-            if (ImagemProduto == null)
-            {                
+            if (/*ImagemProduto == null || */!ModelState.IsValid)
+            {
                 return Page();
             }
-            var produto = new ProdutoModel();
-            if (await TryUpdateModelAsync(produto,ProdutoModel.GetType(), nameof(produto)))
+            
+            
+            if (await TryUpdateModelAsync(ProdutoModel,ProdutoModel.GetType(), nameof(ProdutoModel)))
             {
-                _context.Produtos.Add(produto);
+                _context.Produtos.Add(ProdutoModel);
                 await _context.SaveChangesAsync();
-                //await AppUtils.ProcessarArquivoDeImagem(produto.IdProduto, ImagemProduto,
-                //    _webHostEnvironment);
+                await AppUtils.ProcessarArquivoDeImagem(ProdutoModel.IdProduto, ImagemProduto,
+                    _webHostEnvironment);
                 return RedirectToPage("./Index");
             }
 

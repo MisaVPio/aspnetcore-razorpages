@@ -763,3 +763,4 @@ C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\obj\Debug\net8.0\AspNetCoreWebApp.pd
 C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\obj\Debug\net8.0\AspNetCoreWebApp.genruntimeconfig.cache
 C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\obj\Debug\net8.0\ref\AspNetCoreWebApp.dll
 C:\DEV\PROJECTS\TESTE\aspnetcore-razorpages\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\bin\Debug\net8.0\SixLabors.ImageSharp.dll

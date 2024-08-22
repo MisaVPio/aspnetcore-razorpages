@@ -8,30 +8,20 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using AspNetCoreWebApp.Data;
 using AspNetCoreWebApp.Models;
-using System.ComponentModel.DataAnnotations;
 
-namespace AspNetCoreWebApp.Pages.ProdutoCRUD
+namespace AspNetCoreWebApp.Pages.ProdutoCRUD2
 {
     public class EditModel : PageModel
     {
+        private readonly AspNetCoreWebApp.Data.ApplicationDbContext _context;
 
-        private readonly ApplicationDbContext _context;
-        private readonly IWebHostEnvironment _webHostEnvironment;
-
-        [BindProperty]
-        public ProdutoModel ProdutoModel { get; set; }
-
-        [BindProperty]
-        [Display(Name = "Imagem do Produto")]
-        public IFormFile ImagemProduto { get; set; }
-         
-        public string CaminhoImagem { get; set; }
-
-        public EditModel(ApplicationDbContext context, IWebHostEnvironment webHostEnvironment)
+        public EditModel(AspNetCoreWebApp.Data.ApplicationDbContext context)
         {
             _context = context;
-            _webHostEnvironment = webHostEnvironment;
         }
+
+        [BindProperty]
+        public ProdutoModel ProdutoModel { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -45,7 +35,7 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
             {
                 return NotFound();
             }
-            CaminhoImagem = $"~/img/produto/{produtomodel.IdProduto:D5}";
+            ProdutoModel = produtomodel;
             return Page();
         }
 
@@ -63,11 +53,6 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
             try
             {
                 await _context.SaveChangesAsync();
-                if (ImagemProduto != null)
-                {
-                    await AppUtils.ProcessarArquivoDeImagem(ProdutoModel.IdProduto, 
-                        ImagemProduto, _webHostEnvironment);
-                }
             }
             catch (DbUpdateConcurrencyException)
             {
