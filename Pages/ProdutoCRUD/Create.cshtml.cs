@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using AspNetCoreWebApp.Data;
 using AspNetCoreWebApp.Models;
 using System.ComponentModel.DataAnnotations;
+using NuGet.Configuration;
 
 namespace AspNetCoreWebApp.Pages.ProdutoCRUD
 {
@@ -38,13 +39,10 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
             return Page();
         }
 
-
-
-        // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPostCriarAsync()
         {
             if (ImagemProduto == null)
-            {
+            {                
                 return Page();
             }
             var produto = new ProdutoModel();
@@ -53,9 +51,10 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
                 _context.Produtos.Add(produto);
                 await _context.SaveChangesAsync();
                 //await AppUtils.ProcessarArquivoDeImagem(produto.IdProduto, ImagemProduto,
-                 //   _webHostEnvironment);
+                //    _webHostEnvironment);
                 return RedirectToPage("./Index");
             }
+
             return Page();
         }
     }

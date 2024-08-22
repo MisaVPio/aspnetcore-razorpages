@@ -1784,6 +1784,22 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
+      "SixLabors.ImageSharp/3.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/SixLabors.ImageSharp.props": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
         "type": "package",
         "dependencies": {
@@ -5739,6 +5755,22 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "SixLabors.ImageSharp/3.1.5": {
+      "sha512": "lNtlq7dSI/QEbYey+A0xn48z5w4XHSffF8222cC4F4YwTXfEImuiBavQcWjr49LThT/pRmtWJRcqA/PlL+eJ6g==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/3.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/SixLabors.ImageSharp.props",
+        "lib/net6.0/SixLabors.ImageSharp.dll",
+        "lib/net6.0/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.3.1.5.nupkg.sha512",
+        "sixlabors.imagesharp.nuspec"
+      ]
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "sha512": "BmAf6XWt4TqtowmiWe4/5rRot6GerAeklmOPfviOvwLoF5WwgxcJHAxZtySuyW9r9w+HLILnm8VfJFLCUJYW8A==",
       "type": "package",
@@ -6655,23 +6687,24 @@
     "net8.0": [
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.8",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.4"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.4",
+      "SixLabors.ImageSharp >= 3.1.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MisaV\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrador\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\AspNetCoreWebApp.csproj",
+      "projectUniqueName": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\AspNetCoreWebApp.csproj",
       "projectName": "AspNetCoreWebApp",
-      "projectPath": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\AspNetCoreWebApp.csproj",
-      "packagesPath": "C:\\Users\\MisaV\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\obj\\",
+      "projectPath": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\AspNetCoreWebApp.csproj",
+      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+      "outputPath": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MisaV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6716,6 +6749,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[8.0.4, )"
+          },
+          "SixLabors.ImageSharp": {
+            "target": "Package",
+            "version": "[3.1.5, )"
           }
         },
         "imports": [
@@ -6737,7 +6774,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
