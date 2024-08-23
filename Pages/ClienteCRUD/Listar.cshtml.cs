@@ -15,7 +15,7 @@ namespace AspNetCoreWebApp.Pages.ClienteCRUD
         {
             _context = context;
         }
-        
+
         public async Task OnGetAsync()
         {
             Clientes = await _context.Clientes.ToListAsync();
@@ -23,7 +23,7 @@ namespace AspNetCoreWebApp.Pages.ClienteCRUD
 
         public async Task<IActionResult> OnPostDeleteAsync(int? id)
         {
-            if(id == null)
+            if (id == null)
             {
                 return NotFound();
             }

@@ -24,22 +24,22 @@ namespace AspNetCoreWebApp.Pages.ClienteCRUD
 
         public async Task<IActionResult> OnPostAsync()
         {
-            if(!ModelState.IsValid)
-            {
-                ViewData["Message"] = "Modelo inválido!!!!";
-                return Page();
-            }
-            var cliente = new ClienteModel();
-            cliente.Endereco = new EnderecoModel();
-            cliente.Situacao = ClienteModel.SituacaoCliente.Cadastrado;
+            //var cliente = new ClienteModel();
+            //Cliente.Endereco = new EnderecoModel();
+            Cliente.Situacao = ClienteModel.SituacaoCliente.Cadastrado;
 
-            if (await TryUpdateModelAsync(cliente, Cliente.GetType(),nameof(ClienteModel)))
-            {
-                _context.Clientes.Add(cliente);
+                _context.Clientes.Add(Cliente);
                 await _context.SaveChangesAsync();
                 return RedirectToPage("./Listar");
-            }
-            return Page();
+                   
+            //if (await TryUpdateModelAsync(cliente, typeof(ClienteModel), "Cliente"))
+            //{
+            //    Cliente.Situacao = ClienteModel.SituacaoCliente.Cadastrado;
+            //    _context.Clientes.Add(Cliente);
+            //    await _context.SaveChangesAsync();
+            //    return RedirectToPage("./Listar");
+            //}
+
         }
 
 

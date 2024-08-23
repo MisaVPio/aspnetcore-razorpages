@@ -6692,19 +6692,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MisaV\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrador\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\AspNetCoreWebApp.csproj",
+      "projectUniqueName": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\AspNetCoreWebApp.csproj",
       "projectName": "AspNetCoreWebApp",
-      "projectPath": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\AspNetCoreWebApp.csproj",
-      "packagesPath": "C:\\Users\\MisaV\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\obj\\",
+      "projectPath": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\AspNetCoreWebApp.csproj",
+      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+      "outputPath": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MisaV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6774,7 +6774,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
