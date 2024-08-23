@@ -17,123 +17,123 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AspNetCoreWebApp
 build_property.RootNamespace = AspNetCoreWebApp
-build_property.ProjectDir = C:\DEV\PROJECTS\TESTE\aspnetcore-razorpages\
+build_property.ProjectDir = C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\DEV\PROJECTS\TESTE\aspnetcore-razorpages
+build_property.MSBuildProjectDirectory = C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/Admin.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/ClienteCRUD/Alterar.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ClienteCRUD/Alterar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZUNSVURcQWx0ZXJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/ClienteCRUD/Incluir.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ClienteCRUD/Incluir.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZUNSVURcSW5jbHVpci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/ClienteCRUD/Listar.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ClienteCRUD/Listar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZUNSVURcTGlzdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/ClienteCRUD/_ViewStart.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ClienteCRUD/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZUNSVURcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/Error.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/Index.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/Privacy.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/ProdutoCRUD2/Create.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ProdutoCRUD2/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b0NSVUQyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/ProdutoCRUD2/Delete.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ProdutoCRUD2/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b0NSVUQyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/ProdutoCRUD2/Details.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ProdutoCRUD2/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b0NSVUQyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/ProdutoCRUD2/Edit.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ProdutoCRUD2/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b0NSVUQyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/ProdutoCRUD2/Index.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ProdutoCRUD2/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b0NSVUQyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/ProdutoCRUD/Create.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ProdutoCRUD/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b0NSVURcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/ProdutoCRUD/Edit.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ProdutoCRUD/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b0NSVURcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/ProdutoCRUD/Index.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ProdutoCRUD/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b0NSVURcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/ProdutoCRUD/_ViewStart.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ProdutoCRUD/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b0NSVURcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/Shared/Display Templates/_CustomCPF.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/Display Templates/_CustomCPF.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXERpc3BsYXkgVGVtcGxhdGVzXF9DdXN0b21DUEYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/Shared/Display Templates/_TelefoneTemplate.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/Display Templates/_TelefoneTemplate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXERpc3BsYXkgVGVtcGxhdGVzXF9UZWxlZm9uZVRlbXBsYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/Shared/_BackTemplate.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/_BackTemplate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9CYWNrVGVtcGxhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/Shared/_ConsultaCEP.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/_ConsultaCEP.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Db25zdWx0YUNFUC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/Shared/_CustomConfirm.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/_CustomConfirm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9DdXN0b21Db25maXJtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/Shared/_FrontTemplate.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/_FrontTemplate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Gcm9udFRlbXBsYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/Shared/_Template.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/_Template.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9UZW1wbGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/_ViewImports.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/_ViewStart.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/PROJECTS/TESTE/aspnetcore-razorpages/Pages/Shared/_Layout.cshtml]
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zxlqjc48i1

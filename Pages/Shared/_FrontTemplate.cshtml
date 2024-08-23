@@ -17,7 +17,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="navbar-collapse collapse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Main</a>
@@ -29,6 +29,17 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/ProdutoCRUD/Index">Produto</a>
                         </li>
                     </ul>
+                    <form action="/Index" method="get"
+                          class="form-inline my-2 my-lg-0" id="formBusca">
+                        <input type="text" name="q"
+                               placeholder="Nome do produto a buscar ..."
+                               class="form-control mr-sm-2" />
+                        <input type="hidden" name="o" id="o" value="0"/>
+                        <button class="btn btn-secondary my-2 my-sm-0"
+                                type="submit">
+                            Buscar
+                        </button>
+                    </form>
                 </div>
             </div>
         </nav>
