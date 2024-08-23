@@ -11,9 +11,8 @@ using Microsoft.AspNetCore.Localization;
 
         CURSO RICARDO MAROQUINO - ASP.NET CORE 3.1 COM RAZOR PAGES
 
-        ATUALMENTE NA AULA 11 - 07:03m
-        * CORRIGIR CÓDIGO DE GRAVAÇÃO DE PRODUTO
-        * CORRIGIR SCRIPT DE CEP
+        ATUALMENTE NA AULA 12 - 07:03m
+        * MELHORAR CRIAÇÃO DE CLIENTE - PARA O FUTURO
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

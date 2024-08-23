@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\teste\\aspnetcore-razorpages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\teste\\aspnetcore-razorpages\\pages\\clientecrud\\alterar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\clientecrud\\alterar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T00:55:31.638Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Alterar.cshtml.cs",
               "DocumentMoniker": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Alterar.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\ClienteCRUD\\Alterar.cshtml.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Alterar.cshtml",
               "DocumentMoniker": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Alterar.cshtml",
               "RelativeDocumentMoniker": "Pages\\ClienteCRUD\\Alterar.cshtml",
@@ -75,12 +92,11 @@
               "RelativeToolTip": "Pages\\ClienteCRUD\\Alterar.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T00:20:12.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T00:20:12.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Incluir.cshtml.cs",
               "DocumentMoniker": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Incluir.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\ClienteCRUD\\Incluir.cshtml.cs",
@@ -88,12 +104,11 @@
               "RelativeToolTip": "Pages\\ClienteCRUD\\Incluir.cshtml.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T22:55:27.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T22:55:27.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Incluir.cshtml",
               "DocumentMoniker": "C:\\DEV\\PROJECTS\\TESTE\\aspnetcore-razorpages\\Pages\\ClienteCRUD\\Incluir.cshtml",
               "RelativeDocumentMoniker": "Pages\\ClienteCRUD\\Incluir.cshtml",
@@ -101,8 +116,7 @@
               "RelativeToolTip": "Pages\\ClienteCRUD\\Incluir.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T22:54:20.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T22:54:20.509Z"
             }
           ]
         }
