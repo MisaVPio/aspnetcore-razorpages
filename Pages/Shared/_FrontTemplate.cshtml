@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-md navbar-toggleable-md navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">Concessionária Online</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -23,23 +23,20 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Main</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/ProdutoCRUD/Index">Produto</a>
                         </li>
                     </ul>
-                    <form action="/Index" method="get"
+                   @*  <form action="/Index" method="get"
                           class="form-inline my-2 my-lg-0" id="formBusca">
                         <input type="text" name="q"
                                placeholder="Nome do produto a buscar ..."
                                class="form-control mr-sm-2" />
-                        <input type="hidden" name="o" id="o" value="0"/>
-                        <button class="btn btn-secondary my-2 my-sm-0"
+                        <input type="hidden" name="o" id="o" value="0" />
+                        <button class="btn btn-success my-2 my-sm-0"
                                 type="submit">
                             Buscar
                         </button>
-                    </form>
+                    </form> *@
                 </div>
             </div>
         </nav>
@@ -52,7 +49,14 @@
 
     <footer class="bfooter bg-light text-center p-4 fixed-bottom">
         <div class="container">
-            &copy; 2024 - Concessionária Online - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            <div class="row">
+                <div class="col">
+                    &copy; 2024 - Quitanda Online - <a asp-area="" asp-page="/Privacy">Política de privacidade.</a>
+                </div>
+                <div class="col text-end">
+                    <a asp-area="" asp-page="/Admin">Administrar</a>
+                </div>
+            </div>
         </div>
     </footer>
 

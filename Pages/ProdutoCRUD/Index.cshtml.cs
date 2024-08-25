@@ -13,17 +13,19 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
     public class IndexModel : PageModel
     {
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public IndexModel(ApplicationDbContext context)
+        public IndexModel(ApplicationDbContext context, IWebHostEnvironment webHostEnvironment)
         {
             _context = context;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         public IList<ProdutoModel> Produto { get;set; } = default!;
 
         public async Task OnGetAsync()
         {
-            Produto = await _context.Produtos.ToListAsync();
+            Produto = await _context.Produtos.OrderBy(p => p.Nome).ToListAsync();
         }
 
         public async Task<IActionResult> OnPostDeleteAsync(int? id)
@@ -36,6 +38,17 @@ namespace AspNetCoreWebApp.Pages.ProdutoCRUD
             if (verProduto != null)
             {
                 _context.Produtos.Remove(verProduto);
+                if (await _context.SaveChangesAsync() > 0)
+                {
+                    var caminhoArquivoImagem = Path.Combine(
+                    _webHostEnvironment.WebRootPath,
+                    "img\\produto",
+                    verProduto.IdProduto.ToString("D6") + ".jpg");
+                    if(System.IO.File.Exists(caminhoArquivoImagem))
+                    {
+                        System.IO.File.Delete(caminhoArquivoImagem);
+                    }
+                }
                 await _context.SaveChangesAsync();
             }
 

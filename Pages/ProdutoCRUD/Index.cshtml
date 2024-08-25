@@ -8,8 +8,8 @@
 <h1>@ViewData["Title"]</h1>
 
 <p>
-    <a asp-page="Create">
-        <button class="btn btn-primary btn-sm">Criar Produto</button>
+    <a asp-page="Create" class="btn btn-primary btn-sm">
+        Criar Produto
         </a>
 </p>
 <table class="table">
@@ -33,7 +33,7 @@
     <tbody>
         @foreach (var item in Model.Produto)
         {
-                <tr>
+                <tr class="@(item.Estoque > 0 ? "" : "bg-warning")">
                     <td>
                     @Html.DisplayFor(modelItem => item.Nome)
                     </td>

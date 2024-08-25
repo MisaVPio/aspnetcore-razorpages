@@ -7,7 +7,7 @@ namespace AspNetCoreWebApp.Models
     {
         [Key]
         [Display(Name ="Código")]
-        [DisplayFormat(DataFormatString="{0:D5}")]
+        [DisplayFormat(DataFormatString="{0:D6}")]
         public int IdProduto { get; set; }
 
         [Required(ErrorMessage ="O campo \"{0}\" é de preenchimento obrigatório.")]
@@ -20,9 +20,9 @@ namespace AspNetCoreWebApp.Models
         public string Descricao { get; set; }
 
         [Required(ErrorMessage = "O campo \"{0}\" é de preenchimento obrigatório")]
-        [Column(TypeName ="decimal(18,2)")]
+        [DataType(DataType.Currency)]
         [Display(Name = "Preço")]
-        public decimal? Preco { get; set; }
+        public double? Preco { get; set; }
 
         [Required(ErrorMessage = "O campo \"{0}\" é de preenchimento obrigatório")]
         public int? Estoque { get; set; }

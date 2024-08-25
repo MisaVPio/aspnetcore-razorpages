@@ -13,24 +13,152 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\00001.jpg",
-      "PackagePath": "staticwebassets\\img\\produto\\00001.jpg"
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000001.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000001.jpg"
     },
     {
-      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\00002.jpg",
-      "PackagePath": "staticwebassets\\img\\produto\\00002.jpg"
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000002.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000002.jpg"
     },
     {
-      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\00003.jpg",
-      "PackagePath": "staticwebassets\\img\\produto\\00003.jpg"
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000003.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000003.jpg"
     },
     {
-      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\00005.jpg",
-      "PackagePath": "staticwebassets\\img\\produto\\00005.jpg"
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000004.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000004.jpg"
     },
     {
-      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\00006.jpg",
-      "PackagePath": "staticwebassets\\img\\produto\\00006.jpg"
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000005.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000005.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000006.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000006.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000007.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000007.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000008.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000008.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000009.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000009.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000010.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000010.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000011.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000011.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000012.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000012.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000013.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000013.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000014.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000014.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000015.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000015.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000016.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000016.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000017.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000017.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000018.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000018.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000019.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000019.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000020.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000020.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000021.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000021.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000022.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000022.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000023.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000023.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000024.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000024.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000025.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000025.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000026.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000026.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000027.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000027.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000028.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000028.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000029.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000029.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000030.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000030.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000031.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000031.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000032.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000032.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000033.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000033.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000034.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000034.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000035.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000035.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000036.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000036.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\000037.jpg",
+      "PackagePath": "staticwebassets\\img\\produto\\000037.jpg"
     },
     {
       "Id": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\wwwroot\\img\\produto\\sem_imagem.JPG",

@@ -12,6 +12,10 @@ namespace AspNetCoreWebApp.Pages
         private readonly ILogger<IndexModel> _logger;
         private ApplicationDbContext _context;
         public IList<ProdutoModel> Produtos;
+        private const int tamanhoPagina = 12;
+
+        public int PaginaAtual {  get; set; }
+        public int QuantidadePaginas { get; set; }
 
         public IndexModel(ILogger<IndexModel> logger, ApplicationDbContext context)
         {
@@ -19,53 +23,47 @@ namespace AspNetCoreWebApp.Pages
             _context = context;
         }
 
-       
-        //public async Task OnGetAsync([FromQuery]string termoBusca)
-        //{
-        //    if (string.IsNullOrEmpty(termoBusca))
-        //    {
-        //        Produtos = await _context.Produtos.ToListAsync();
-        //    }
-        //    else
-        //    {
-        //        Produtos = await _context.Produtos.Where(
-        //            p => p.Nome.ToUpper().Contains(termoBusca.ToUpper())).ToListAsync();
-        //    }
 
-        //}
-
-        public async void OnGetAsync([FromQuery(Name ="q")] string termoBusca, [FromQuery(Name ="o")]int? ordem)
+    
+        public async void OnGetAsync([FromQuery(Name = "q")] string termoBusca,
+            [FromQuery(Name = "o")] int? ordem = 1, [FromQuery(Name ="p")] int? pagina = 1)
         {
+            this.PaginaAtual = pagina.Value;
             var query = _context.Produtos.AsQueryable();
             if (!string.IsNullOrEmpty(termoBusca))
             {
                 query = query.Where(
                     p => p.Nome.ToUpper().Contains(
                         termoBusca.ToUpper()));
-                   
+
             }
-            Produtos = await query.ToListAsync();
+           
             if (ordem.HasValue)
             {
-                switch(ordem.Value)
+                switch (ordem.Value)
                 {
                     case 1:
-                        Produtos = Produtos.OrderBy(p => p.Nome).ToList();
-                        //query = query.OrderBy(p => p.Nome);
+
+                        query = query.OrderBy(p => p.Nome.ToUpper());
                         break;
                     case 2:
-                        Produtos = Produtos.OrderBy(p => p.Preco).ToList();
-                        //query = query.OrderBy(p => p.Preco);
+                        query = query.OrderBy(p => p.Preco);
                         break;
                     case 3:
-                        Produtos = Produtos.OrderBy(p => p.Preco).ToList();
-                        //query = query.OrderByDescending(p => p.Preco);
+                        query = query.OrderByDescending(p => p.Preco);
                         break;
 
                 }
             }
 
-            
+            var queryCount = query;
+            int qtdeProdutos = queryCount.Count();
+            this.QuantidadePaginas = Convert.ToInt32(Math.Ceiling(qtdeProdutos*1M/tamanhoPagina));
+
+            query = query.Skip(tamanhoPagina * (this.PaginaAtual - 1)).Take(tamanhoPagina);
+
+            Produtos = await query.ToListAsync();
+
         }
     }
 }
