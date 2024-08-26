@@ -14,12 +14,9 @@ using Microsoft.AspNetCore.Identity;
 
         CURSO RICARDO MAROQUINO - ASP.NET CORE 3.1 COM RAZOR PAGES
 
-        ATUALMENTE NA AULA 15 - 00:00m
-        * MELHORAR CRIAÇÃO DE CLIENTE - PARA O FUTURO
-        * MELHORAR PÁGINA INICIAL DA LOJA
-        * CORRIGIR BOOTSTRAP
-
-
+        ATUALMENTE NA AULA 16 - 00:00m
+       
+               
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  */
