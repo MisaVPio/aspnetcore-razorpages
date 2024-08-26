@@ -764,3 +764,9 @@ C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\obj\Debug\net8.0\AspNetCoreWebApp.ge
 C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\obj\Debug\net8.0\ref\AspNetCoreWebApp.dll
 C:\DEV\PROJECTS\TESTE\aspnetcore-razorpages\bin\Debug\net8.0\SixLabors.ImageSharp.dll
 C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using AspNetCoreWebApp.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace AspNetCoreWebApp.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<AppUser>
     {
         public ApplicationDbContext (DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -16,6 +13,8 @@ namespace AspNetCoreWebApp.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<ItemPedidoModel>().HasKey(e => new {e.IdPedido, e.IdProduto});
             modelBuilder.Entity<FavoritoModel>().HasKey(e => new { e.IdCliente, e.IdProduto });
             modelBuilder.Entity<VisitadoModel>().HasKey(e => new { e.IdCliente, e.IdProduto });
