@@ -2,6 +2,7 @@ using AspNetCoreWebApp.Data;
 using AspNetCoreWebApp.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.VisualBasic;
 using System.ComponentModel.DataAnnotations;
@@ -12,17 +13,17 @@ namespace AspNetCoreWebApp.Pages
     {
         public class Senhas
         {
-            [Required(ErrorMessage ="O campo \"{0}\" é de preenchimento obrigatório.")]
-            [StringLength(16, ErrorMessage = "O campo \"{0}\" deve ter pelo menos {2} e no máximo {1} caracteres.",MinimumLength =6)]
+            [Required(ErrorMessage = "O campo \"{0}\" é de preenchimento obrigatório.")]
+            [StringLength(16, ErrorMessage = "O campo \"{0}\" deve ter pelo menos {2} e no máximo {1} caracteres.", MinimumLength = 6)]
             [DataType(DataType.Password)]
-            [Display(Name ="Senha")]
+            [Display(Name = "Senha")]
             public string Senha { get; set; }
 
             [Required(ErrorMessage = "O campo \"{0}\" é de preenchimento obrigatório.")]
             [DataType(DataType.Password)]
             [Display(Name = "Confirmação de Senha")]
-            [Compare("Senha", ErrorMessage ="As senhas não são iguais.")]
-            public string ConfirmacaoSenha{ get; set; }
+            [Compare("Senha", ErrorMessage = "As senhas não são iguais.")]
+            public string ConfirmacaoSenha { get; set; }
         }
 
         private readonly ApplicationDbContext _Context;
@@ -50,23 +51,27 @@ namespace AspNetCoreWebApp.Pages
 
         public async Task<IActionResult> OnPostAsync()
         {
-            var cliente = new ClienteModel();
-            cliente.Endereco = new EnderecoModel();
-            cliente.Situacao =  ClienteModel.SituacaoCliente.Cadastrado;
 
-            var senhasUsuario = new Senhas();
-            if(!await TryUpdateModelAsync(senhasUsuario, senhasUsuario.GetType(), nameof(senhasUsuario))){
-                return Page();
-            }
+            var cliente = Cliente;
+            cliente.Situacao = ClienteModel.SituacaoCliente.Cadastrado;
 
-            if(await TryUpdateModelAsync(cliente, Cliente.GetType(), nameof(cliente))){
-                if(!await _RoleManager.RoleExistsAsync("cliente"))
+            Senhas senhasUsuario = SenhasUsuario;
+
+                if (!await TryUpdateModelAsync(senhasUsuario, senhasUsuario.GetType(), nameof(senhasUsuario)))
+                {
+                    var errors = ModelState.Values.SelectMany(v => v.Errors);
+                    return Page();
+                }
+            
+            if (await TryUpdateModelAsync(cliente, cliente.GetType(), nameof(cliente)))
+            {
+                if (!await _RoleManager.RoleExistsAsync("cliente"))
                 {
                     await _RoleManager.CreateAsync(new IdentityRole("cliente"));
                 }
 
                 var usuarioExistente = await _UserManager.FindByEmailAsync(cliente.Email);
-                if(usuarioExistente != null)
+                if (usuarioExistente != null)
                 {
                     ModelState.AddModelError("Cliente.Email", "Já existe um cliente cadastrado com esse email.");
                     return Page();
@@ -95,10 +100,10 @@ namespace AspNetCoreWebApp.Pages
                     {
                         await _UserManager.DeleteAsync(usuario);
                         ModelState.AddModelError("Cliente", "Não foi possível efetuar o cadastro. Verifique"
-                            +"os dados e tente novamente. Se o problema persistir, entre em contato conosco.");
+                            + "os dados e tente novamente. Se o problema persistir, entre em contato conosco.");
                         return Page();
                     }
-                }
+                }                                  
                 else
                 {
                     ModelState.AddModelError("Cliente.Email", "Não foi possível criar um usuario com este email"
