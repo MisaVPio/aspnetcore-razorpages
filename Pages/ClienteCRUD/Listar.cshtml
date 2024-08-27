@@ -33,12 +33,35 @@
                         <td>@Html.DisplayFor(modelItem => item.Email)</td>
                         <td class="text-center">
                             <a class="btn btn-primary btn-sm" asp-page="./Alterar"
-                            asp-route-id="@item.IdCliente" method="post">Alterar</a>
+                               asp-route-id="@item.IdCliente"><i class="fi-xnsuxl-edit-solid"></i></a>
                             <form class="d-inline-block" asp-page-handler="Delete"
-                           asp-route-id="@item.IdCliente" method="post">
-                           <button class="btn btn-danger btn-sm" onclick="confirmarExclusao(this);" type="button">
-                           Excluir</button>
-                       </form>
+                                  asp-route-id="@item.IdCliente" method="post">
+                                <button class="btn btn-danger btn-sm" onclick="confirmarExclusao(this);" type="button">
+                                    <i class="fi-xnsuxl-trash-bin"></i>
+                                </button>
+                            </form>
+
+                            @if (Model.EmailsAdmins.Contains(item.Email))
+                            {
+                                <form class="d-inline-block" asp-page-handler="deladmin"
+                                      asp-route-id="@item.IdCliente" method="post">
+                                    <button class="btn btn-warning btn-sm" type="submit"
+                                    title="Remover de administradores">
+                                        <i class="fi-xnsuxl-user-solid"></i>
+                                    </button>
+                                </form>
+                            }
+                            else
+                            {
+                                <form class="d-inline-block" asp-page-handler="setadmin"
+                                      asp-route-id="@item.IdCliente" method="post">
+                                    <button class="btn btn-success btn-sm" type="submit"
+                                            title="Adicionar a administradores">
+                                        <i class="fi-xnsuxhl-user-shield-solid"></i>
+                                    </button>
+                                </form>
+                            }
+
                         </td>
                     </tr>
                 }
@@ -51,8 +74,12 @@
     }
 </main>
 
-@section Scripts{
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-    @{await Html.RenderPartialAsync("_CustomConfirm");}
-   @*  @{await Html.RenderPartialAsync("_CustomCPF");}  *@
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    @{
+        await Html.RenderPartialAsync("_CustomConfirm");
+    }
+    @*  @{await Html.RenderPartialAsync("_CustomCPF");}  *@
 }

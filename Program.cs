@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using AspNetCoreWebApp.Data;
 using System.Globalization;
-using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Localization;    
 using Microsoft.CodeAnalysis.FlowAnalysis.DataFlow.PointsToAnalysis;
 using AspNetCoreWebApp.Models;
 using Microsoft.AspNetCore.Identity;
@@ -31,6 +31,11 @@ using Microsoft.AspNetCore.Identity;
 
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.CheckConsentNeeded = context => true;
+    options.MinimumSameSitePolicy = SameSiteMode.None;  
+});
 
 builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 {
@@ -54,8 +59,20 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.SlidingExpiration = true;
 });
 
-builder.Services.AddAuthorization();
-builder.Services.AddRazorPages();
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("isAdi", policy => policy.RequireRole("admin"));
+});
+
+builder.Services.AddRazorPages(options =>
+{
+    options.Conventions.AuthorizePage("/Admin", "isAdmin");
+    options.Conventions.AuthorizeFolder("/ProdutoCRUD", "isAdmin");
+}).AddCookieTempDataProvider(options =>
+{
+    options.Cookie.HttpOnly = true;
+});
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("ApplicationDbContext") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContext' not found.")));
 
@@ -67,7 +84,7 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Error");
 }
 app.UseStaticFiles();
-
+app.UseCookiePolicy();
 app.UseRouting();
 app.UseAuthentication();    
 app.UseAuthorization();

@@ -1,0 +1,40 @@
+﻿@using Microsoft.AspNetCore.Http.Features
+
+@{
+    var consentFeature = Context.Features.Get<ITrackingConsentFeature>();
+    var showBanner =  !consentFeature?.CanTrack ?? false;
+    var cookieString = consentFeature?.CreateConsentCookie();
+}
+
+@if(showBanner)
+{
+    <div id="cookieConsent" class="alert alert-info alert-dismissible fade show" role="alert">
+        Este site requer o uso de cookies para funcionar corretamente. Se deseja mais informações
+        sobre nossa política de privacidade, <a asp-page="/Privacy">Clique aqui</a>.
+        <button type="button" class="accept-policy close" data-dismiss="alert" aria-label="Close"
+        data-cookie-string="@cookieString">
+            <span aria-hidden="true">Aceitar</span>
+        </button>
+    </div>
+    <script>
+            (function () {
+                var button = document.querySelector("#cookieConsent button[data-cookie-string]");
+
+                if (button && button.dataset.cookieString) {
+                    button.addEventListener("click", function (event) {
+                        document.cookie = button.dataset.cookieString;
+                        // Optionally remove or hide the banner manually after setting the cookie
+                        var consentBanner = document.getElementById("cookieConsent");
+                        if (consentBanner) {
+                            consentBanner.style.display = "none";
+                        }
+                    }, false);
+                }
+            })();
+    </script>
+
+}   
+         @* COOKIE BASEADO NA GDPR *@
+
+
+

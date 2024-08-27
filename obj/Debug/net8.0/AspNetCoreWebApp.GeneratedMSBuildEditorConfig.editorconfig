@@ -122,6 +122,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Db25zdWx0YUNFUC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/_CookieConsentPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/_CustomConfirm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9DdXN0b21Db25maXJtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

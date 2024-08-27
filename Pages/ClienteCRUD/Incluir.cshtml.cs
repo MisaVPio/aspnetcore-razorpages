@@ -1,13 +1,16 @@
 using AspNetCoreWebApp.Data;
 using AspNetCoreWebApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
 
 namespace AspNetCoreWebApp.Pages.ClienteCRUD
 {
+    [Authorize(Roles = "admin")]
     public class IncluirModel : PageModel
     {
+
         private ApplicationDbContext _context;
 
         [BindProperty]

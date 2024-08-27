@@ -1,5 +1,6 @@
 using AspNetCoreWebApp.Data;
 using AspNetCoreWebApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
@@ -7,6 +8,7 @@ using SQLitePCL;
 
 namespace AspNetCoreWebApp.Pages.ClienteCRUD
 {
+    [Authorize(Roles = "admin")]
     public class AlterarModel : PageModel
     {
         private ApplicationDbContext _context;

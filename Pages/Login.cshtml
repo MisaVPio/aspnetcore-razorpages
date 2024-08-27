@@ -23,6 +23,8 @@
         <input asp-for="Dados.Senha" class="form-control mt-3" placeholder="Digite aqui sua senha" required/>
         <span asp-validation-for="Dados.Senha" class="text-danger"></span>
 
+        <input type="hidden" name="returnUrl" value="@Model.ReturnUrl"/>
+
         <div class="checkbox mt-3">
             <label asp-for="Dados.Lembrar">
                 <input asp-for="Dados.Lembrar" />
