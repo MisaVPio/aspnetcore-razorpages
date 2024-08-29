@@ -1,11 +1,15 @@
 using AspNetCoreWebApp.Data;
 using AspNetCoreWebApp.Models;
+using AspNetCoreWebApp.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.VisualBasic;
 using System.ComponentModel.DataAnnotations;
+using System.Text;
+using System.Text.Encodings.Web;
 
 namespace AspNetCoreWebApp.Pages
 {
@@ -29,13 +33,15 @@ namespace AspNetCoreWebApp.Pages
         private readonly ApplicationDbContext _Context;
         private readonly UserManager<AppUser> _UserManager;
         private readonly RoleManager<IdentityRole> _RoleManager;
+        private readonly IEmailSender _emailSender;
 
         public NovoClienteModel(ApplicationDbContext context,
-            UserManager<AppUser> userManager, RoleManager<IdentityRole> roleManager)
+            UserManager<AppUser> userManager, RoleManager<IdentityRole> roleManager, IEmailSender emailSender)
         {
             _Context = context;
             _UserManager = userManager;
             _RoleManager = roleManager;
+            _emailSender = emailSender;
         }
 
         [BindProperty]
@@ -93,7 +99,17 @@ namespace AspNetCoreWebApp.Pages
                     int afetados = await _Context.SaveChangesAsync();
                     if (afetados > 0)
                     {
-                    https://kenhaggerty.com/articles/article/aspnet-core-31-smtp-emailsender
+                        var token = await _UserManager.GenerateEmailConfirmationTokenAsync(usuario);
+                        token = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(token));
+                        var urlConfirmacaoEmail = Url.Page("/ConfirmacaoEmail", null,
+                            new { userId = usuario.Id, token }, Request.Scheme);
+                        StringBuilder msg = new StringBuilder();
+                        msg.Append("<h1>Quitanda Online :: Confirmação de E-mail</h1>");
+
+                        msg.Append($"<p>Por favor, confirme seu e-mail " +
+                            $"<a href='{HtmlEncoder.Default.Encode(urlConfirmacaoEmail)}'>clicando aqui</a>");
+                        msg.Append("<p>Atenciosamente,<br>Equipe de Suporte Quitanda Online</p>");
+                        await _emailSender.SendEmailAsync(usuario.Email, "Confirmação de E-mail", "", msg.ToString());
                         return RedirectToPage("/CadastroRealizado");
                     }
                     else

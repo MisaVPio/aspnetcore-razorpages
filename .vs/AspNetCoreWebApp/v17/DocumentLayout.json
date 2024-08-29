@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\novocliente.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\novocliente.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\pages\\novocliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:pages\\novocliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|c:\\dev\\projects\\lucas\\aspnetcore-razorpages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1B0EB5F-6257-45D3-9589-87C1186B278C}|AspNetCoreWebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,27 +67,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NovoCliente.cshtml.cs",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\NovoCliente.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\NovoCliente.cshtml.cs",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\NovoCliente.cshtml.cs",
-              "RelativeToolTip": "Pages\\NovoCliente.cshtml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T13:28:26.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NovoCliente.cshtml",
-              "DocumentMoniker": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\NovoCliente.cshtml",
-              "RelativeDocumentMoniker": "Pages\\NovoCliente.cshtml",
-              "ToolTip": "C:\\DEV\\PROJECTS\\LUCAS\\aspnetcore-razorpages\\Pages\\NovoCliente.cshtml",
-              "RelativeToolTip": "Pages\\NovoCliente.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T11:27:25.747Z",
+              "WhenOpened": "2024-08-29T12:18:42.382Z",
               "EditorCaption": ""
             }
           ]
