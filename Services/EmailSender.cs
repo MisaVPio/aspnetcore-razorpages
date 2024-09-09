@@ -46,7 +46,7 @@ namespace AspNetCoreWebApp.Services
             }
             catch (Exception ex)
             {
-                throw new InvalidOperationException(ex.Message)
+                throw new InvalidOperationException(ex.Message);
             }
         }
     }

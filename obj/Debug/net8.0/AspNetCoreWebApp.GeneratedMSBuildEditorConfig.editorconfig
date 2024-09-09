@@ -54,6 +54,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZmlybWFjYW9FbWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ConfirmacaoRedefinicaoSenha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZmlybWFjYW9SZWRlZmluaWNhb1NlbmhhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/EmailRecuperacaoEnviado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1haWxSZWN1cGVyYWNhb0VudmlhZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -108,6 +116,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/ProdutoCRUD/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b0NSVURcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/RecuperarSenha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjdXBlcmFyU2VuaGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/RedefinirSenha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVkZWZpbmlyU2VuaGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/DEV/PROJECTS/LUCAS/aspnetcore-razorpages/Pages/Shared/Display Templates/_CustomCPF.cshtml]
