@@ -5,7 +5,7 @@
 }
 
 <div class="row justify-content-center">
-    <form class="form-signin align-self-center" method="post" asp-page="/RecuperarSenha">
+    <form class="form-signin align-self-center" method="post" asp-page="/RedefinirSenha">
         <h1 class="mt-5 mb-3 font-weight-normal">Redefinição de Senha</h1>
 
         <style type="text/css">
@@ -20,9 +20,9 @@
         <input type="hidden" asp-for="Dados.Token"/>
         <input asp-for="Dados.Email" class="form-control" placeholder="Digite aqui seu email" required autofocus />
         <span asp-validation-for="Dados.Email" class="text-danger"></span>
-        <input asp-for="Dados.Senha" class="form-control" placeholder="Digite aqui seu email" required autofocus />
+        <input asp-for="Dados.Senha" class="form-control" placeholder="Digite aqui sua senha" required autofocus />
         <span asp-validation-for="Dados.Senha" class="text-danger"></span>
-        <input asp-for="Dados.ConfirmacaoSenha" class="form-control" placeholder="Digite aqui seu email" required autofocus />
+        <input asp-for="Dados.ConfirmacaoSenha" class="form-control" placeholder="Confirme sua senha" required autofocus />
         <span asp-validation-for="Dados.ConfirmacaoSenha" class="text-danger"></span>
 
         <button class="btn btn-lg btn-primary btn-block mt-3" type="submit">Redefinir Senha</button>

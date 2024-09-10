@@ -21,7 +21,7 @@ namespace AspNetCoreWebApp.Services
         public async Task SendEmailAsync(string email, string assunto, string mensagemTexto, string mensagemHtml)
 
         {
-            var mensagem = new MimeMessage(_emailConfiguration);
+            var mensagem = new MimeMessage();
             mensagem.From.Add(new MailboxAddress(_emailConfiguration.NomeRemetente,
                 _emailConfiguration.EmailRemetente));
             mensagem.To.Add(MailboxAddress.Parse(email));

@@ -29,7 +29,7 @@ namespace AspNetCoreWebApp.Pages
                 return RedirectToPage("/Index");
             }
 
-            var usuario = await _userManager.FindByEmailAsync(userId);
+            var usuario = await _userManager.FindByIdAsync(userId);
             if (usuario == null)
             {
                 return NotFound($"Não foi possível encontrar o usuário com ID '{userId}'.");

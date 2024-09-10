@@ -1,3 +1,4 @@
+using AspNetCoreWebApp.Data;
 using AspNetCoreWebApp.Models;
 using AspNetCoreWebApp.Services;
 using Microsoft.AspNetCore.Identity;
@@ -27,7 +28,7 @@ namespace AspNetCoreWebApp.Pages
 
         [BindProperty] public DadosEmail Dados { get; set; }
 
-        public RecuperarSenhaModel(DbContext context, UserManager<AppUser> userManager, IEmailSender emailSender)
+        public RecuperarSenhaModel(ApplicationDbContext context, UserManager<AppUser> userManager, IEmailSender emailSender)
         {
             _userManager = userManager;
             _emailSender = emailSender;
@@ -53,7 +54,7 @@ namespace AspNetCoreWebApp.Pages
 
                     StringBuilder msg = new StringBuilder();
                     msg.Append("<h1>QuitandaOnline :: Recuperação de Senha</h1>");
-                    msg.Append($"<p>Por favor, redefina sua senha<a href='{HtmlEncoder.Default.Encode(urlResetarSenha)}'/></p>");
+                    msg.Append($"<p>Por favor, redefina sua senha<a href='{HtmlEncoder.Default.Encode(urlResetarSenha)}'> Clicando aqui.</a></p>");
                     msg.Append("<p>Atenciosamente <br> Equipe de Suporte Quitanda Online</p>");
                     await _emailSender.SendEmailAsync(usuario.Email, "Recuperação de Senha", "", msg.ToString());
                     return RedirectToPage("/EmailRecuperacaoEnviado");

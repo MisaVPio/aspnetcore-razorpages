@@ -33,10 +33,10 @@ namespace AspNetCoreWebApp.Pages
             [DataType(DataType.Password)]
             [Display(Name = "Confirmaçao de Senha")]
             [Compare("Senha", ErrorMessage = "A senha e a confirmação de senha estão divergentes.")]
-
+            public string ConfirmacaoSenha { get; set; }
 
             public string Token { get; set; }
-            public string ConfirmacaoSenha { get; set; }
+            
         }
         [BindProperty]
         public DadosRedefinicaoSenha Dados { get; set; }
@@ -58,7 +58,7 @@ namespace AspNetCoreWebApp.Pages
 
         }
 
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPostAsync()  
         {
             if (!ModelState.IsValid) { return Page(); }
             var usuario = await _userManager.FindByEmailAsync(Dados.Email);
@@ -73,4 +73,4 @@ namespace AspNetCoreWebApp.Pages
 
         }
     }
-}
+ }
