@@ -52,6 +52,6 @@ namespace AspNetCoreWebApp.Models
 
         public EnderecoModel Endereco { get; set; }
 
-        //public ICollection<PedidoModel>? Pedidos { get; set; }
+        //ICollection<PedidoModel>? Pedidos { get; set; }
     }
 }

@@ -9,6 +9,7 @@ namespace AspNetCoreWebApp.Models
     {
         public enum SituacaoPedido 
         {
+            Carrinho,
             Cancelado,
             Realizado,
             Verificado,
@@ -26,8 +27,7 @@ namespace AspNetCoreWebApp.Models
 
         [Required(ErrorMessage = "O campo \"{0}\" é de preenchimento obrigatório.")]
         [Display(Name = "Valor Total")]
-        [Column(TypeName ="decimal(18,2)")]
-        public decimal? ValorTotal { get; set; }
+        public double? ValorTotal { get; set; }
 
         [Required(ErrorMessage = "O campo \"{0}\" é de preenchimento obrigatório.")]
         [Display(Name = "Situação")]

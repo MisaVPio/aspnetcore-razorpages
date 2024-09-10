@@ -14,9 +14,9 @@ using AspNetCoreWebApp.Services;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-        CURSO RICARDO MAROQUINO - ASP.NET CORE 3.1 COM RAZOR PAGES
+        CURSO RICARDO MAROQUIO - ASP.NET CORE 3.1 COM RAZOR PAGES
 
-        ATUALMENTE NA AULA 17 - 26:43m
+        ATUALMENTE NA AULA 18 - 10:52m
        
                
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -75,6 +75,8 @@ builder.Services.AddRazorPages(options =>
     options.Cookie.HttpOnly = true;
 });
 
+builder.Services.AddMvc();
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("ApplicationDbContext") ?? throw new InvalidOperationException("Connection string 'ApplicationDbContext' not found.")));
 
@@ -94,8 +96,11 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapRazorPages();
-
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapRazorPages();
+    endpoints.MapControllers();
+});
 var defaultCulture = new CultureInfo("pt-BR");
 var localizationOptions = new RequestLocalizationOptions
 {

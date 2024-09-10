@@ -17,9 +17,17 @@ namespace AspNetCoreWebApp.Models
 
         [Required(ErrorMessage = "O campo \"{0}\" é de preenchimento obrigatório.")]
         [Display(Name = "Valor Unitário")]
-        [Column(TypeName = "decimal(18,2)")]
 
-        public decimal? ValorUnitario { get; set; }
+        public double ValorUnitario { get; set; }
+
+        [NotMapped]
+        public double ValorItem
+        {
+            get
+            {
+                return Quantidade * ValorUnitario;
+            }
+        }
 
         [ForeignKey("IdPedido")]
         public PedidoModel Pedido { get; set; }
