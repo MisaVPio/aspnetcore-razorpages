@@ -773,3 +773,12 @@ C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\bin\Debug\net8.0\Microsoft.Extension
 C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\bin\Debug\net8.0\MailKit.dll
 C:\DEV\PROJECTS\LUCAS\aspnetcore-razorpages\bin\Debug\net8.0\MimeKit.dll
+C:\DEV\PROJECTS\TESTE\aspnetcore-razorpages\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\DEV\PROJECTS\TESTE\aspnetcore-razorpages\bin\Debug\net8.0\MailKit.dll
+C:\DEV\PROJECTS\TESTE\aspnetcore-razorpages\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\DEV\PROJECTS\TESTE\aspnetcore-razorpages\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\DEV\PROJECTS\TESTE\aspnetcore-razorpages\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\DEV\PROJECTS\TESTE\aspnetcore-razorpages\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\DEV\PROJECTS\TESTE\aspnetcore-razorpages\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\DEV\PROJECTS\TESTE\aspnetcore-razorpages\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\DEV\PROJECTS\TESTE\aspnetcore-razorpages\bin\Debug\net8.0\MimeKit.dll
