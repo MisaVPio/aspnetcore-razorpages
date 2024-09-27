@@ -102,7 +102,7 @@ insert into produtos (nome,preco,categoria) values
 
 select * from produtos;
 
-select categoria from produtos where categoria like 'Gaming Accessories';
+select categoria from produtos where categoria = 'gaming accessories'
 
 select categoria, preco from produtos 
 
@@ -138,3 +138,14 @@ select * from produtos p where nome like 'logitech%'
 
 select * from produtos p where nome like '%geforce%'
 
+select * from produtos where nome like '_vidia%'
+
+select * from  produtos where nome like '_vidia%' and categoria like 'computer hardware'
+
+select * from produtos where  nome like '%nvidia%' or categoria like 'monitors'
+
+select * from produtos where not categoria like 'MONITORS' order  by categoria asc 
+
+select * from produtos where (preco between 1500 and 2000)
+
+select * from produtos where (preco between 1500 and 2000) and (nome like '%lg%' or nome like '%nvidia%')
